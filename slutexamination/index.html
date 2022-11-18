@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Condensed:wght@300&family=Secular+One&display=swap"
+        rel="stylesheet">
+    <title>Solaris</title>
+</head>
+
+<body>
+    <h1 id="mainh1">SOLSYSTEMET</h1>
+    <h3 id="maintext">SOLARIS</h3>
+    <main>
+        <div id="overlay" onclick="displayOff()">
+
+            <canvas id="starSky"></canvas>
+
+            <div id="overlayLeft">
+                <aside id="overlayAside"></aside>
+                <aside id="overlayAside2"></aside>
+                <aside id="overlayAside3"></aside>
+            </div>
+            <div id="innerOverlay">
+                <h1 id="planetName"></h1>
+                <h2 id="latinName"></h2>
+                <p id="desc"></p>
+                <aside id="dataGrid">
+                    <h4 id="circumHeading">OMKRETS</h4>
+                    <h4 id="distHeading">KM FRÅN SOLEN</h4>
+                    <p id="circum"></p>
+                    <p id="dist"></p>
+                    <h4 id="maxHeading">MAX TEMPERATUR</h4>
+                    <h4 id="minHeading">MIN TEMPERATUR</h4>
+                    <p id="maxTemp"></p>
+                    <p id="minTemp"></p>
+                </aside>
+                <h4 id="moonsHeading">MÅNAR</h4>
+                <p id="moons"></p>
+                <footer id="overlayFooter"><img src="img/Vector.png" alt="Logotype for Zocom company"></footer>
+            </div>
+        </div>
+
+        <aside id="sun" class="planets"></aside>
+        <aside id="mercury" class="planets"></aside>
+        <aside id="venus" class="planets"></aside>
+        <aside id="earth" class="planets"></aside>
+        <aside id="mars" class="planets"></aside>
+        <aside id="jupiter" class="planets"></aside>
+        <aside id="saturnContainer">
+            <aside id="saturn" class="planets"></aside>
+            <aside id="saturnRing"></aside>
+        </aside>
+        <aside id="uranus" class="planets"></aside>
+        <aside id="neptune" class="planets"></aside>
+    </main>
+    <footer id="mainFooter"><img src="img/Vector.png" alt="Logotype for Zocom company"></footer>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
